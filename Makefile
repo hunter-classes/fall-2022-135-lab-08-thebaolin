@@ -1,4 +1,5 @@
-
+main: main.cpp main.o
+//need at least 2 .cpp files
 
 sample: sample.o imageio.o
 	g++ -o sample sample.o imageio.o
